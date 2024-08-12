@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Project Name: Melanoma Detection
+> Outline a brief description of your project-To build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. 
 
 
 ## Table of Contents
@@ -11,18 +11,20 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- general information about your project here.
+- Background of your project-The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
+- Business problem that  project is trying to solve-A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
+- Dataset that is being used-The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC).
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Conclusion 1 - The CNN model created without dropout is showing overfit i.e high training accuracy and low validation accuracy
+
+- Conclusion 2 - The CNN model with dropout is performing well which reduced the effect of Overfitting
+
+- Conclusion 3 - The CNN model after rectifying class imbalances using augmenter library is also reducing the effect of overfitting and the model performs well from the analysisfrom the analysis
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
